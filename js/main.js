@@ -9,8 +9,7 @@ createApp({
     return {
         txt: "il mio primo esercizio con Vue con il mio amico Mario",
         fotoMario: "img/mario.jpeg",
-        flexare: d-flex,
-        centratura:justify-content-center
+        flexare: "d-flex justify-content-center"
     };
   },
 }).mount("#app")
