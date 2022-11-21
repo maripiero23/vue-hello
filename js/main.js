@@ -7,7 +7,8 @@ createApp({
   data () {
     // la funzione data deve SEMPRE ritornare un oggetto
     return {
-        txt: "il mio primo esercizio con Vue con il mio amico Mario",
+        txt: "il mio primo esercizio con Vue, con il mio amico Mario",
+        textflx: "d-flex justify-content-center",
         fotoMario: "img/mario.jpeg",
         flexare: "d-flex justify-content-center"
     };

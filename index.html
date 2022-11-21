@@ -10,8 +10,8 @@
 </head>
 <body>
     <div id="app">
-        <h1>Oggi farò {{txt}}</h1>
-        <div v-bind:class="flexare">
+        <h1 v-bind:class="textflx">Oggi faccio {{txt}}</h1>
+        <div :class="flexare">
             <img v-bind:src="fotoMario"  alt="">
         </div>
     </div>
